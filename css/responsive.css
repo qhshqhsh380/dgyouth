@@ -1,0 +1,1961 @@
+/* 아이콘영역 */
+/* break포인트 -1600px */
+@media screen and (max-width: 1600px) {
+    .icon {
+        display: none;
+
+    }
+
+}
+
+/* break포인트 -1300px */
+@media screen and (max-width: 1300px) {
+    .nav .main-nav {
+        width: 62%;
+        left: 13%;
+
+
+    }
+
+    .sns img {
+        width: 34px;
+        height: 34px;
+
+
+    }
+
+    .nav .main-nav>li>a {
+        font-size: 17px;
+    }
+
+    .nav .main-nav .sub-menu li a {
+        font-size: 15.5px;
+
+
+    }
+
+
+
+}
+
+/* nav영역 */
+/* break포인트 -1100px */
+@media screen and (max-width: 1100px) {
+
+    .nav .main-nav {
+        display: none;
+
+    }
+
+    .header .inner .logo img {
+        margin-top: 13px;
+        width: 100px;
+        height: 57px;
+
+    }
+
+    .inner .sns {
+        top: 16%;
+        right: 11%;
+
+    }
+
+    .sns img {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .mb-bt {
+        display: block;
+    }
+
+    .header.active .inner .sns {
+        position: absolute;
+        top: 24%;
+        right: 53px;
+
+
+
+    }
+
+    /* .inner .sns {
+        top: 16%;
+        right: 4%;
+    } */
+
+    .sns img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+}
+
+
+/* break포인트 -900px */
+@media screen and (max-width: 900px) {
+    .header .inner {
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .header.hide {
+        top: -100px;
+        transition: top .5s;
+    }
+
+
+    .mb-bt.hide {
+        top: -100px;
+        transition: top .5s;
+    }
+
+
+}
+
+/* break포인트 -590px */
+@media screen and (max-width: 590px) {
+    .header .inner {
+        width: 85%;
+    }
+
+
+    .header .inner .logo img {
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .mb-bt {
+        top: 2.5%;
+        right: 5%;
+        width: 45px;
+        height: 45px;
+
+    }
+
+    .mb-bt span {
+        height: 2.5px;
+
+    }
+
+    .mb-bt-open.mb-bt span.b {
+        margin-top: -1px;
+
+
+    }
+
+    .mb-bt-open.mb-bt span.t {
+        margin-top: -1px;
+    }
+}
+
+
+/* break포인트 -480px */
+@media screen and (max-width: 480px) {
+
+    .inner .sns {
+        top: 16%;
+        right: 17%;
+    }
+
+    .sns img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header .inner .logo img {
+        width: 70px;
+        height: 46px;
+    }
+
+}
+
+
+/* 메인배너영역 */
+/* break포인트 -1600px */
+@media screen and (max-width: 1600px) {
+    .banner02 .pink-logo {
+        display: none;
+    }
+}
+
+/* break포인트 -1300px */
+@media screen and (max-width: 1300px) {
+    .main {
+        height: 650px;
+    }
+
+    .banner01 {
+        height: 90%;
+
+    }
+
+    .main .swiper-slide .man-img {
+        bottom: -3%;
+        width: 66%;
+        left: 16%;
+
+
+    }
+
+    .main .swiper-slide .main-title {
+        display: none;
+    }
+
+    .text-box {
+        top: 31%;
+        left: 21%;
+    }
+
+    .main .swiper-slide p {
+        font-size: 18px;
+        bottom: 57.5%;
+        left: 14.5%;
+
+    }
+
+
+
+    .search-wrap {
+        bottom: 13%;
+
+    }
+
+
+
+
+
+
+    .swiper-slide .banner02 {
+        height: 90%;
+
+
+    }
+
+    .banner02::before {
+        height: 86%;
+
+    }
+
+    .banner02::after {
+        height: 86%;
+
+    }
+
+    .banner02 .visual-box {
+        width: 500px;
+    }
+
+    .banner02 .txt-box {
+        top: 47%;
+
+    }
+
+    .banner02 .txt-box h2 {
+        font-size: 34px;
+        line-height: 57px;
+        padding-bottom: 55px;
+    }
+
+    .banner02 .txt-box p {
+        line-height: 35px;
+        font-size: 20px;
+
+
+    }
+
+    .banner02 .txt-box .btn01 {
+        font-size: 17px;
+        width: 180px;
+        height: 48px;
+
+
+    }
+
+    .banner02 .txt-box .btn02 {
+        margin-left: 15px;
+        font-size: 17px;
+        width: 104px;
+        height: 48px;
+
+    }
+}
+
+
+/* break포인트 -1100px */
+@media screen and (max-width: 1100px) {
+    .text-box {
+        top: 28%;
+        left: 17%;
+
+    }
+
+    .main .swiper-slide h2 {
+        font-size: 36px;
+        bottom: 85.5%;
+
+    }
+
+
+    .search-wrap {
+        width: 486px;
+        height: 49px;
+
+    }
+
+
+    .banner02 .visual-box {
+        width: 365px;
+        top: 20%
+    }
+
+
+    .banner02 .visual-box .m6 {
+
+        left: 20%;
+    }
+
+    .banner02 .txt-box {
+        top: 47%;
+
+    }
+
+    .banner02 .txt-box h2 {
+        font-size: 30px;
+        bottom: 75.5%;
+        line-height: 54px;
+
+    }
+
+
+    .banner02 .txt-box p {
+        line-height: 33px;
+        font-size: 19px;
+    }
+
+
+
+}
+
+
+/* break포인트 -900px */
+@media screen and (max-width: 900px) {
+    .banner02 .visual-box {
+        width: 320px;
+        top: 22%;
+        left: 33%;
+    }
+
+
+
+    .banner02 .txt-box p {
+        display: none;
+    }
+
+    .banner02 .txt-box {
+        top: 37%;
+        left: 18%;
+    }
+
+    .banner02 .txt-box .btn-box {
+
+        top: 10%;
+        left: 14.5%;
+    }
+
+    .banner02 .txt-box .btn01 {
+        border-radius: 14px;
+        font-size: 15px;
+        width: 160px;
+        height: 40px;
+    }
+
+    .banner02 .txt-box .btn02 {
+
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .banner02::before {
+        height: 63%;
+
+    }
+
+    .banner02::after {
+        height: 63%;
+
+    }
+
+    .banner02 .visual-box .m6 {
+        display: none;
+    }
+
+    .banner02 .visual-box .m7 {
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+/* break포인트 -700px */
+@media screen and (max-width: 700px) {
+    .main {
+        height: 560px;
+    }
+
+    .text-box {
+        top: 31%;
+        left: 10%;
+
+    }
+
+    .main .swiper-slide .man-img {
+        width: 80%;
+        left: 9%;
+    }
+
+
+    .main .swiper-slide p {
+        font-size: 16px;
+
+    }
+
+    /* .main .swiper-slide h2 {
+        font-size: 35px;
+        bottom: 80.5%;
+
+    } */
+
+    .search-wrap {
+        width: 465px;
+    }
+
+    .banner02 .txt-box {
+        top: 36%;
+        left: 13%;
+    }
+
+    .main .swiper-slide h2 {
+        font-size: 25px;
+        bottom: 74.5%;
+        line-height: 42px;
+    }
+
+    .banner02 .txt-box .btn01 {
+        height: 38px;
+    }
+
+    .banner02 .txt-box .btn02 {
+        height: 38px;
+
+    }
+
+    .banner02 .visual-box {
+
+        left: 27%;
+    }
+
+    .swiper-slide .banner02>img {
+        display: none;
+    }
+
+
+
+}
+
+/* break포인트 -590px */
+@media screen and (max-width: 590px) {
+    .main {
+        height: 520px;
+    }
+
+    .text-box {
+        top: 31%;
+        left: 2%;
+
+    }
+
+    .main .swiper-slide .man-img {
+        width: 84%;
+        left: 6%;
+    }
+
+
+    .search-wrap {
+        height: 45px;
+        width: 390px;
+    }
+
+    .search-form-word {
+
+        font-size: 15px;
+        line-height: 48px;
+    }
+
+
+    .banner02 .txt-box {
+        top: 36%;
+        left: 13%;
+    }
+
+    .main .swiper-slide h2 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .banner02 .txt-box .btn01 {
+        height: 34px;
+        font-size: 14px;
+        width: 144px;
+    }
+
+    .banner02 .txt-box .btn02 {
+        height: 34px;
+        width: 92px;
+
+
+
+
+    }
+
+    .banner02 .visual-box {
+
+        left: 27%;
+    }
+
+    .banner02 .visual-box .m6 {
+        display: block;
+        left: -21%;
+        top: 33%;
+    }
+
+    .banner02 .visual-box .m6 {
+        display: block;
+        width: 25%;
+        position: absolute;
+        top: 33%;
+    }
+
+    .banner02 .visual-box .m7 {
+        display: block;
+        top: 27%;
+        left: 88%;
+    }
+
+}
+
+
+/* break포인트 -480px */
+@media screen and (max-width: 480px) {
+
+    .banner01 {
+        height: 80%;
+    }
+
+    .main .swiper-slide .man-img {
+        width: 97%;
+        left: 1%;
+    }
+
+
+
+    .text-box {
+        width: 50%;
+        top: 32%;
+        left: -1%;
+
+    }
+
+    .search-wrap {
+        height: 46px;
+        width: 330px;
+    }
+
+    .search-form-word {
+        font-size: 14px;
+        line-height: 46px;
+    }
+
+    .search-form-word::placeholder {
+
+        font-size: 14px;
+
+    }
+
+    .blue-btn {
+        top: 49%;
+        right: 7px;
+        width: 38px;
+        height: 38px;
+
+
+
+    }
+
+    .banner01 .swiper-slide h2 {
+        font-size: 22px;
+        line-height: 56px;
+    
+        bottom: 66.5%;
+
+
+    }
+
+    .main .swiper-slide p {
+        font-size: 14px;
+    }
+
+
+    .swiper-slide .banner02 {
+        height: 80%;
+
+    }
+
+    .banner02 .visual-box {
+        left: 20%;
+
+        width: 250px;
+        top: 25%;
+    }
+
+
+
+    .banner02 .txt-box {
+        top: 39%;
+        left: 0%;
+    }
+
+    .banner02 .txt-box h2{
+        bottom: 69.5%;
+        font-size: 18px;
+    line-height: 27px;
+    }
+ 
+    .banner02 .txt-box .btn01 {
+        height: 30px;
+        font-size: 13px;
+        width: 130px;
+    }
+
+    .banner02 .txt-box .btn02 {
+        height: 30px;
+        width: 77px;
+        font-size: 13.5px;
+        margin-left: 8px;
+    }
+
+
+
+}
+
+
+/* 주요프로그램영역 */
+
+/* break포인트 -1450px */
+@media screen and (max-width: 1450px) {
+    .p-text {
+        width: 100%;
+        height: 232px;
+        /* background-color: yellow; */
+
+
+
+    }
+
+    .program .inner p {
+        font-size: 16px;
+        margin-bottom: 17px;
+        /* background-color: rgb(145, 255, 173); */
+    }
+
+    .program .inner h2 {
+        line-height: 35px;
+        font-size: 26px;
+        /* background-color: rgb(162, 44, 36); */
+    }
+
+
+    .program .swiper-pagination-horizontal .swiper-pagination-bullet {
+        width: 24px;
+
+    }
+
+    .program .swiper-pagination-horizontal .swiper-pagination-bullet-active {
+        width: 36px;
+
+    }
+
+    .program .inner .swiper-pagination-horizontal {
+
+        top: 65%;
+        left: -0.5%;
+
+
+
+    }
+}
+
+/* break포인트 -1300px */
+@media screen and (max-width: 1300px) {
+    .program {
+        padding-top: 80px;
+    }
+
+    .p-text {
+        width: 100%;
+        height: 218px;
+        /* background-color: rgb(96, 185, 103); */
+
+
+
+    }
+
+    .program .inner p {
+        /* font-size: 17px; */
+        margin-bottom: 13px;
+        /* background-color: rgb(145, 255, 173); */
+    }
+
+    .program .inner h2 {
+        line-height: 32px;
+        font-size: 24px;
+        /* background-color: rgb(162, 44, 36); */
+    }
+
+    .program .inner .swiper-pagination-horizontal {
+        top: 61%;
+    }
+
+
+    .program .swiper-pagination-horizontal .swiper-pagination-bullet {
+        width: 23px;
+
+    }
+
+    .program .swiper-pagination-horizontal .swiper-pagination-bullet-active {
+        width: 32px;
+
+    }
+
+    .program .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 4px !important;
+    }
+}
+
+
+/* 주요프로그램영역 */
+
+/* break포인트 -1100px */
+@media screen and (max-width: 1100px) {
+    .program {
+        padding-top: 80px;
+    }
+
+    .p-text {
+        width: 96%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .p-text .txt01 {
+        display: none;
+    }
+
+    .program .sw-basic {
+        width: 100%;
+        top: 59%;
+        left: 0%;
+
+    }
+
+    .program .swiper-slide {
+        width: 100%;
+        margin: 0 0px;
+        margin-right: 45px;
+
+
+    }
+
+    .program .inner .swiper-pagination-horizontal {
+        top: 175%;
+        left: 39.5%;
+    }
+
+}
+
+/* break포인트 -700px */
+@media screen and (max-width: 700px) {
+    .program {
+        padding-top: 80px;
+    }
+
+}
+
+
+/* break포인트 -590px */
+@media screen and (max-width: 590px) {
+    .program .swiper-slide {
+        margin-right: 0px;
+    }
+
+    .program .inner p {
+        font-size: 15px;
+
+    }
+
+    .program .inner h2 {
+
+        font-size: 20px;
+
+    }
+
+
+    .program .inner .swiper-pagination-horizontal {
+        top: 182%;
+        left: 32.5%;
+
+    }
+}
+
+
+/* break포인트 -480px */
+@media screen and (max-width: 480px) {
+    .program {
+        padding-top: 0px;
+    }
+
+    .program .inner .swiper-pagination-horizontal {
+        top: 153%;
+        left: 27.5%;
+    }
+
+
+}
+
+/* break포인트 -400px */
+@media screen and (max-width: 400px) {
+
+    .program .inner .swiper-pagination-horizontal {
+        top: 148%;
+        left: 24.5%;
+    }
+
+
+}
+
+
+/* 퀵메뉴영역 */
+/* break포인트 -1100px */
+@media screen and (max-width: 1100px) {
+    .quick-menu {
+        padding-top: 230px;
+    }
+
+}
+
+/* break포인트 -900px */
+@media screen and (max-width: 900px) {
+    .quick-menu .inner .container {
+        justify-content: flex-start;
+
+
+
+    }
+
+    .links-item {
+        width: calc(33.3333333333% - 0.5rem - 0.5rem);
+        margin: 0.5rem;
+        /* width: 33.333%; */
+        /* height: 170px; */
+        /* margin: 0 auto; */
+
+
+    }
+
+}
+
+/* break포인트 -590px */
+@media screen and (max-width: 590px) {
+    .quick-menu {
+        padding-top: 270px;
+    }
+
+
+    .quick-menu .inner .container {
+        width: 95%;
+    }
+
+    .links-item {
+
+
+        width: calc(50% - 0.5rem - 0.5rem);
+    }
+
+
+    .links-item .links-text {
+        font-size: 16px;
+    }
+
+
+    .links-item .links-image img {
+        scale: 75%;
+    }
+
+}
+
+/* break포인트 -480px */
+@media screen and (max-width: 480px) {
+
+    .quick-menu {
+        padding-top: 180px;
+    }
+
+    .links-item .links-image img {
+        scale: 70%;
+    }
+
+    .links-item .links-text {
+        font-size: 14px;
+        margin-top: -3px;
+    }
+
+    .links-item {
+
+        height: 115px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 프로그램영역 */
+
+/* break포인트 -1100px */
+@media screen and (max-width: 1100px) {
+
+    .content {
+        padding-top: 110px;
+    }
+
+    .content .inner .con-box h2 {
+        font-size: 30px;
+
+    }
+
+    .content .inner .con-box p {
+        font-size: 16px;
+        padding-bottom: 70px;
+    }
+
+
+    .btn-next,
+    .btn-prev {
+        width: 50px;
+        height: 50px;
+
+
+    }
+
+    .btn-next .material-icons,
+    .btn-prev .material-icons {
+        font-size: 35px;
+        line-height: 50px;
+
+    }
+
+    .bg img {
+        scale: 75%;
+    }
+}
+
+/* break포인트 -900px */
+@media screen and (max-width: 900px) {
+
+
+
+    .content .inner .con-box p {
+        padding-bottom: 35px;
+    }
+
+    .content .inner .con-box h2 {
+        font-size: 24px;
+
+    }
+
+    .sw-item {
+        width: 100%;
+    }
+
+    .btn-next {
+        left: 104%;
+    }
+
+    .btn-prev {
+        right: 104%;
+    }
+
+
+    .bg img {
+        scale: 65%;
+    }
+
+
+    .bg {
+        right: 0;
+    }
+
+    .btn-next,
+    .btn-prev {
+        width: 36px;
+        height: 36px;
+
+
+    }
+
+    .btn-next .material-icons,
+    .btn-prev .material-icons {
+        font-size: 28px;
+        line-height: 39px;
+
+    }
+
+    .btn-next {
+        left: 102%;
+    }
+
+    .btn-prev {
+        right: 102%;
+    }
+
+}
+
+/* break포인트 -800px */
+@media screen and (max-width: 800px) {
+
+    .content {
+        padding-top: 80px;
+        padding-bottom: 67px;
+    }
+
+    .content .inner {
+        width: 90%;
+    }
+
+    .bg img {
+        display: none;
+
+    }
+
+}
+
+/* break포인트 -480px */
+@media screen and (max-width: 480px) {
+
+    .content {
+        padding-top: 50px;
+    }
+
+    .content .inner .con-box {
+        width: 100%;
+    }
+
+    .content .inner .con-box h2 {
+        font-size: 20px;
+
+        padding-bottom: 6px;
+    }
+
+    .content .inner .con-box p {
+        font-size: 15px;
+        padding-bottom: 23px;
+    }
+
+    .btn-next,
+    .btn-prev {
+        /* width: 30px;
+        height: 30px; */
+        display: none;
+    }
+
+
+    .btn-next .material-icons,
+    .btn-prev .material-icons {
+        /* font-size: 25px;
+        line-height: 32px; */
+    }
+
+
+    .btn-prev {
+        right: 101%;
+    }
+
+    .btn-next {
+        left: 101%;
+    }
+
+
+}
+
+
+
+/* 매칭영역 */
+
+/* break포인트 -1630px */
+@media screen and (max-width: 1630px) {
+
+    .bg2 img {
+        display: none;
+
+    }
+}
+
+/* break포인트 -1550px */
+@media screen and (max-width: 1550px) {
+
+    .title-box {
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .m-box .title-box b {
+        padding-left: 52px;
+
+    }
+
+    .m-box .title-box p {
+        font-size: 16px;
+
+    }
+
+    .m-box .m-text .address-box {
+        padding-left: 4px;
+        padding-right: 0px;
+
+    }
+
+
+    .m-box .m-text .address-box em {
+        font-size: 14px;
+
+    }
+
+    .m-box .m-text .address-box .a-icon {
+        width: 17px;
+        height: 20px;
+        margin: 0 2px;
+
+    }
+
+
+
+
+
+
+}
+
+/* break포인트 -1100px */
+@media screen and (max-width: 1100px) {
+
+    .matching h2 {
+        font-size: 24px;
+        padding-top: 55px;
+    }
+
+    .matching .bg-img>p {
+        padding-bottom: 73px;
+        font-size: 16px;
+
+    }
+
+    .bg-img .more-btn {
+        font-size: 14px;
+        top: 19%;
+        left: 82%;
+
+    }
+
+    .bg-img .more-btn img {
+        margin: -3px 4px;
+        margin-left: 5px;
+        scale: 85%;
+    }
+
+    .m-box .m-text .address-box {
+        padding-left: 0px;
+
+    }
+
+    .m-box .title-box b {
+        font-size: 18px;
+
+    }
+
+    .matching .s-pagination {
+        top: 21% !important;
+
+
+
+    }
+
+    .m-box .m-text .address-box .a-icon {
+        display: none;
+
+    }
+
+
+
+    .m-box .title-box span {
+
+        top: 16%;
+        left: 4%;
+
+    }
+
+}
+
+/* break포인트 -800px */
+@media screen and (max-width: 800px) {
+    .bg-img .more-btn {
+        left: 78%;
+    }
+
+
+
+
+}
+
+/* break포인트 -600px */
+@media screen and (max-width: 600px) {
+
+
+    .matching .container02 {
+        width: 95%
+    }
+
+    .bg-img .more-btn {
+        top: 22%;
+        left: 79%;
+        border-radius: 15px;
+        padding-top: 9px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 7px;
+
+
+
+    }
+
+
+    .matching .s-pagination {
+        top: 24% !important;
+        left: 5.5% !important;
+    }
+
+    .s-pagination .swiper-pagination-bullet {
+        width: 11px;
+        height: 11px;
+
+    }
+
+    .s-pagination .swiper-pagination-bullet-active {
+        width: 12px;
+        height: 12px;
+
+
+
+    }
+
+    .m-box .m-text {
+        padding-top: 19px;
+        padding-bottom: 14px;
+
+    }
+
+    .m-box .m-text .address-box {
+
+        padding-top: 5px;
+    }
+
+}
+
+/* break포인트 -480px */
+@media screen and (max-width: 480px) {
+
+    .matching .container02 {
+        width: 98%;
+    }
+
+    .matching h2 {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+
+    .matching .bg-img>p {
+        padding-bottom: 56px;
+        font-size: 15px;
+    }
+
+    .bg-img .more-btn {
+        top: 21%;
+        left: 74%;
+        padding-top: 7px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 3px;
+        font-size: 13px;
+
+
+    }
+
+    .bg-img .more-btn img {
+        margin: -3px 3px;
+        margin-left: 1px;
+        scale: 64%;
+    }
+
+    .matching .s-pagination {
+        top: 22% !important;
+
+        left: 4.5% !important;
+    }
+
+
+    .m-box .title-box b {
+        font-size: 16px;
+    }
+
+    .m-box .title-box p {
+        font-size: 15px;
+        padding-top: 14px;
+        padding-bottom: 2px;
+    }
+
+    .m-box .m-text .address-box em {
+        font-size: 12px;
+    }
+
+    .m-box .title-box span {
+        top: 17%;
+        left: 6%;
+        padding: 2px;
+    }
+}
+
+/* 배너영역 */
+
+/* break포인트 -1300px */
+@media screen and (max-width: 1300px) {
+    .banner {
+        padding-top: 20px
+    }
+
+    .sw-banner .bullet-next {
+        left: 94.5%;
+    }
+
+    .sw-banner .bullet-prev {
+        right: 94.5%;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+    .banner .inner .banner-box {
+        width: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .banner {
+        padding-bottom: 90px;
+    }
+
+    .sw-banner .bullet-next {
+        left: 89.5%;
+    }
+
+    .sw-banner .bullet-prev {
+        right: 89.5%;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner {
+        padding-top: 0px;
+        padding-bottom: 62px;
+    }
+
+    .banner .inner {
+        width: 97%;
+    }
+
+
+}
+
+
+/* 공지사항영역 */
+/* break포인트 -1500px */
+@media screen and (max-width: 1500px) {
+    .notice .container03 .notice-box img {
+        bottom: -6.5%;
+        left: -6%;
+        scale: 80%;
+    }
+
+    .video-box .clip {
+        margin: 23px 160px;
+    }
+
+    .notice .container03 .clip-box h2 {
+        padding-left: 160px;
+
+    }
+
+    .clip-box .more-btn02 {
+        left: 75%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .video-box .clip {
+        margin: 23px 131px;
+    }
+
+    .notice .container03 .clip-box h2 {
+        padding-left: 130px;
+    }
+
+    .clip-box .more-btn02 {
+        left: 72%;
+        top: 12%;
+
+    }
+
+
+
+    .notice .container03 .notice-box h2 {
+        padding-left: 165px;
+    }
+
+
+    .notice-box .more-btn02 {
+        top: 12%;
+        left: 72%;
+    }
+
+    .notice-box .minibox .left-box h3 {
+        font-size: 32px;
+    }
+
+    .notice-box .minibox .left-box p {
+
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .notice .container03 .notice-box {
+        width: 90%;
+
+
+    }
+
+    .notice .container03 .clip-box {
+        width: 90%;
+        margin-top: 600px;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .notice .container03 .notice-box {
+        width: 100%;
+        border-radius: 0;
+        height: 440px;
+
+
+
+    }
+
+    .notice .container03 .notice-box h2 {
+        font-size: 24px;
+        padding-top: 18px;
+        padding-left: 100px;
+    }
+
+
+
+    .notice-box .more-btn02 {
+        font-size: 14px;
+        position: absolute;
+        top: 5%;
+        left: 76%;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        padding-left: 14px;
+        padding-right: 9px;
+
+    }
+
+    .notice-box .more-btn02 .plus {
+        scale: 90% !important;
+
+    }
+
+
+
+    .notice .container03 .notice-box .no-bg {
+        bottom: -25%;
+        left: -12%;
+        scale: 45%;
+    }
+
+
+    .notice-box .minibox {
+        height: 87px;
+        margin-top: 15px;
+        margin-bottom: 7px;
+        padding-left: 42px;
+    }
+
+    .notice-box .minibox .left-box h3 {
+        font-size: 26px;
+        padding-top: 18px;
+        padding-bottom: 3px;
+    }
+
+    .notice-box .minibox .left-box p {
+        font-size: 15px;
+    }
+
+
+    .notice-box .minibox .right-box h3 {
+
+        font-size: 16px;
+        padding-top: 16px;
+        padding-bottom: 12px;
+    }
+
+
+
+    .notice-box .minibox .right-box p {
+        font-size: 15px;
+
+    }
+
+
+
+
+
+
+    .notice-box .list-box {
+        margin: 18px auto;
+        padding-left: 41px;
+    }
+
+    .notice-box .list-box .list li {
+        font-size: 14px;
+        line-height: 50px;
+    }
+
+    .notice .container03 .clip-box {
+        width: 100%;
+        border-radius: 0;
+        margin-top: 440px;
+        height: 505px;
+
+
+
+    }
+
+    .notice .container03 .clip-box h2 {
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+
+    .notice .container03 .clip-box h2 {
+
+        font-size: 24px;
+    }
+
+    .clip-box .more-btn02 {
+        font-size: 14px;
+        position: absolute;
+        top: 5%;
+        left: 76%;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        padding-left: 14px;
+        padding-right: 9px;
+    }
+
+    .clip-box .more-btn02 .plus {
+        scale: 90% !important;
+
+    }
+
+    .video-box .clip {
+        margin: 23px 97px;
+        width: 75%;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .notice .container03 .notice-box {
+
+        height: 370px;
+    }
+
+    .notice .container03 .notice-box h2 {
+        font-size: 20px;
+        padding-top: 18px;
+        padding-left: 40px;
+    }
+
+    .notice-box .minibox {
+        height: 70px;
+        margin-top: 11px;
+        margin-bottom: 7px;
+        padding-left: 10px;
+        width: 86.5%;
+    }
+
+    .notice-box .more-btn02 {
+        font-size: 12px;
+
+        top: 5%;
+        left: 76%;
+        padding-top: 7px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 4px;
+    }
+
+    .notice-box .minibox .left-box h3 {
+        font-size: 20px;
+        padding-top: 14px;
+        padding-bottom: 3px;
+    }
+
+    .notice-box .minibox .left-box p {
+        font-size: 13px;
+    }
+
+    .notice-box .minibox .right-box h3 {
+        font-size: 15px;
+        padding-top: 11px;
+        padding-bottom: 6px;
+    }
+
+    .notice-box .minibox .right-box p {
+        font-size: 13px;
+    }
+
+    .notice-box .list-box {
+        margin: 10px auto;
+        padding-left: 1px;
+    }
+
+    .notice-box .list-box .list li {
+        font-size: 13.5px;
+        line-height: 44px;
+    }
+
+
+
+    .notice .container03 .notice-box .no-bg {
+        display: none;
+    }
+
+    .clip-box .more-btn02 {
+        font-size: 12px;
+        top: 5%;
+        left: 76%;
+        padding-top: 7px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 4px;
+    }
+
+    .notice .container03 .clip-box h2 {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-top: 18px;
+    }
+
+    .video-box .clip {
+        margin: 13px 34px;
+        width: 86%;
+        height: 300px;
+    }
+
+    .notice .container03 .clip-box {
+        width: 100%;
+        border-radius: 0;
+        margin-top: 370px;
+        height: 410px;
+
+    }
+
+}
+
+/* 푸터영역 */
+
+@media screen and (max-width: 1600px) {
+    .footer .inner .center {
+        /* width: 23%; */
+        margin-left: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        margin-top: 80px;
+    }
+
+    .footer .inner .container04 {
+
+        width: 90%;
+    }
+
+    .footer .inner .center {
+        display: none;
+
+    }
+
+    .footer .inner .f-rightbox .top-list li {
+        width: 120px;
+
+    }
+
+    .footer .inner .f-rightbox .center-box li {
+
+        width: 120px;
+
+    }
+
+    .bottom-box h3 {
+        margin-bottom: 10px;
+
+
+
+    }
+
+    .footer .inner .bottom-box .box-left {
+
+        padding-left: 0px;
+    }
+
+    .footer .inner .f-rightbox .center-box {
+
+        text-align: center;
+
+        left: 0%;
+    }
+
+    .footer .inner .f-rightbox .bottom-box {
+        width: 100%;
+
+        text-align: left;
+
+        top: 58%;
+        left: 4%;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .footer {
+
+        height: 550px;
+    }
+
+    .footer .inner .bottom-box .box-left {
+        float: none;
+        margin-bottom: 20px;
+        width: 95%;
+
+
+
+    }
+
+    .footer .inner .bottom-box .box-center {
+        float: none;
+        margin-bottom: 20px;
+        width: 95%;
+
+
+    }
+
+
+    .footer .inner .bottom-box .box-right {
+        float: none;
+        width: 95%;
+
+
+
+    }
+
+    .footer .inner .f-leftbox {
+        width: 16%;
+        /* background-color: rgb(255, 225, 225); */
+        margin-bottom: 15px;
+    }
+
+    /* .footer .inner .f-leftbox img {
+        width: 120%;
+
+    } */
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer .inner .f-leftbox {
+        width: 18%;
+        /* background-color: rgb(255, 225, 225); */
+        margin-bottom: 15px;
+    }
+
+    .footer .inner .f-rightbox .top-list li {
+        width: 108px;
+    }
+
+    .footer .inner .f-rightbox .center-box li {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .footer .inner .f-leftbox {
+        width: 22%;
+        /* background-color: rgb(255, 225, 225); */
+        margin-bottom: 15px;
+    }
+
+    .footer .inner .center-box img {
+        scale: 90%;
+    }
+
+    .footer .inner .f-rightbox .center-box li {
+        width: 90px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .footer {
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+
+
+    .footer .inner .f-leftbox {
+        width: 24%;
+        /* background-color: rgb(255, 225, 225); */
+        margin-bottom: 15px;
+    }
+
+    .footer .inner .f-rightbox .center-box li {
+        /* float: none; */
+        width: 33.333%;
+
+    }
+
+    .footer .inner .f-rightbox .center-box {
+
+        top: 22%;
+
+    }
+
+    .footer .inner .f-rightbox .center-box .img-04 {
+        position: absolute;
+        top: 59%;
+        left: 39%;
+    }
+
+    .bottom-box p {
+        font-size: 13px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 380px) {
+
+
+
+    .footer .inner .container04 {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .footer .inner .f-rightbox .top-list li {
+        width: 100px;
+    }
+
+    .footer .inner .f-leftbox {
+        width: 38%;
+        /* background-color: rgb(255, 225, 225); */
+        margin-bottom: 15px;
+    }
+
+
+    .footer .inner .f-rightbox .top-list li a {
+
+        font-size: 12px;
+
+        margin-bottom: 3px;
+    }
+
+
+}

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- swiper-slide css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- <script src="js/youtube.js"></script> -->
+  <script src="https://kit.fontawesome.com/8101464771.js" crossorigin="anonymous"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+  <script src="js/slick.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- 모바일메뉴 -->
+  <div class="mobile-menu">
+    <!-- 댑스1 -->
+    <ul class="m-menu">
+      <li><a href="#" class="m-mainmenu">청년센터</a>
+        <ul class="m-submenu">
+          <li><a href="#">청년센터</a></li>
+          <li><a href="#">인사말</a></li>
+          <li><a href="#">함께하는사람들</a></li>
+          <li><a href="#">찾아오시는길</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="m-mainmenu">시설대관</a>
+        <ul class="m-submenu">
+          <li><a href="#">대관안내</a></li>
+          <li><a href="#">활동그래</a></li>
+          <li><a href="#">다온나그래</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="m-mainmenu">청년정보</a>
+        <ul class="m-submenu">
+          <li><a href="#">청년프로그램</a></li>
+          <li><a href="#">청년정책</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="m-mainmenu">사업소식</a>
+        <ul class="m-submenu">
+          <li><a href="#">주요사업소개</a></li>
+          <li><a href="#">사업리포트</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="m-mainmenu">센터소식</a>
+        <ul class="m-submenu">
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">뉴스레터</a></li>
+          <li><a href="#">자료집</a></li>
+          <li><a href="#">영상</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+  <!-- 헤더영역 -->
+  <header class="header">
+    <div class="inner ">
+      <div class="logo">
+        <a href="#"><img src="images/main-logo.png" alt="로고"></a>
+      </div>
+      <div class="nav">
+        <ul class="main-nav clear">
+          <li><a href="#">청년센터</a>
+            <ul class="sub-menu">
+              <li><a href="#">청년센터</a></li>
+              <li><a href="#">인사말</a></li>
+              <li><a href="#">함께하는사람들</a></li>
+              <li><a href="#">찾아오시는길</a></li>
+            </ul>
+          </li>
+          <li><a href="#">시설대관</a>
+            <ul class="sub-menu">
+              <li><a href="#">대관안내</a></li>
+              <li><a href="#">활동그래</a></li>
+              <li><a href="#">다온나그래</a></li>
+            </ul>
+          </li>
+          <li><a href="#">청년정보</a>
+            <ul class="sub-menu">
+              <li><a href="#">청년프로그램</a></li>
+              <li><a href="#">청년정책</a></li>
+            </ul>
+          </li>
+          <li><a href="#">사업소식</a>
+            <ul class="sub-menu">
+              <li><a href="#">주요사업소개</a></li>
+              <li><a href="#">사업리포트</a></li>
+            </ul>
+          </li>
+          <li><a href="#">센터소식</a>
+            <ul class="sub-menu">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">뉴스레터</a></li>
+              <li><a href="#">자료집</a></li>
+              <li><a href="#">영상</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="icon clear">
+        <div class="login">
+          <a href="#"><img src="images/login-icon.png" alt="로그인아이콘" title="로그인">로그인</a>
+
+
+        </div>
+        <div class="join">
+          <a href="#"><img src="images/join-icon.png" alt="회원가입아이콘" title="회원가입">회원가입</a>
+        </div>
+      </div>
+      <div class="sns">
+        <a href="#"><img src="images/ico_sns1.png" alt=""></a>
+        <a href="#"><img src="images/ico_sns2.png" alt=""></a>
+        <a href="#"><img src="images/ico_sns3.png" alt="카카오톡아이콘"></a>
+        <a href="#"><img src="images/ico_sns4.png" alt="블로그아이콘"></a>
+        <a href="#"><img src="images/ico_sns5.png" alt="페이스북아이콘"></a>
+        <a href="#"><img src="images/ico_sns6.png" alt="인스타그램아이콘"></a>
+      </div>
+      <!-- 모바일 메뉴 버튼  -->
+      <div class="mb-bt">
+        <span class="t"></span>
+        <span class="m"></span>
+        <span class="b"></span>
+      </div>
+    </div>
+  </header>
+  <!-- 메인배너영역 -->
+  <section class="main">
+    <div class="swiper sw-visual">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide01">
+          <div class="banner01">
+            <img src="images/main-banner01.png" alt="메인배너이미지">
+            <img class="man-img" src="images/obj_main_visual.png" alt="배너사람이미지">
+            <img class="main-title" src="images/banner-title.png" alt="청년의 일상 속 정책을 만나는곳 타이틀글">
+            <div class="text-box">
+              <h2>대구시 청년 플랫폼</h2>
+              <p>청년들의 새로운 문화가 만들어지는 도전과 소통의 공간</p>
+              <div class="search-wrap">
+                <form action="" class="search-form">
+                  <input type="text" class="search-form-word" name="" id="" placeholder="검색어를 입력해 주세요. (ex) 청년복지">
+                  <div class="blue-btn"></div>
+                  <input type="button" class="search-form-bt" value="검색">
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide swiper-slide02">
+          <div class="banner02">
+            <img src="images/배너배경핑크.png" alt="">
+            <div class="visual-box">
+              <img class="house" src="images/houes.png" alt="">
+              <img class="m1" src="images/m1.png" alt="">
+
+              <div class="hand-swing">
+                <img class="m2" src="images/m2.png" alt="">
+                <img class="red-hand" src="images/red-hand.png" alt="">
+              </div>
+
+              <img class="m3" src="images/m3.png" alt="">
+
+              <div class="hand-swing02">
+                <img class="m4" src="images/m4.png" alt="">
+                <img class="sky-hand" src="images/sky-hand.png" alt="">
+              </div>
+
+              <img class="m5" src="images/m5.png" alt="">
+              <img class="m6" src="images/m6.png" alt="">
+              <img class="m7" src="images/m7.png" alt="">
+            </div>
+            <a href="#"><img class="pink-logo" src="images/핑크로고.png" alt=""></a>
+            <div class="txt-box">
+              <h2>모바일로도 손쉽게 !<br><span>청년주거정책</span>을 신청하세요</h2>
+              <p>대구시 청년 주거지원<br>당신에게 필요한 정책은 무엇인가요? </p>
+              <div class="btn-box">
+                <button class="btn01" type="button">청년주거정책 소개</button>
+                <button class="btn02" type="button">홍보자료</button>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- <div class="swiper-pagination"></div>  -->
+    </div>
+  </section>
+  <!-- 주요프로그램영역 -->
+  <section class="program">
+    <div class="inner">
+      <div class="p-text">
+        <p>주요 프로그램 안내</p>
+        <h2 class="tit">
+          <span class="color">청년센터</span>만의 <br> 다양한 <br class="txt01"> 소식을 만나보세요!
+        </h2>
+      </div>
+
+      <!-- 슬라이더 -->
+      <div class="swiper sw-basic">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"><img src="images/온라인청년.png" alt="배너이미지"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="images/커리어넷.jpg" alt="배너이미지"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="images/워크넷.jpg" alt="베너이미지"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="images/월드잡플러스.png" alt="베너이미지"></a>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/워크넷.jpg" alt="베너이미지">
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- 퀵아이콘영역 -->
+  <section class="quick-menu">
+    <div class="inner">
+      <div class="container">
+        <a href="#" class="links-item">
+          <p class="links-image"><img src="images/links_img1.svg" alt=""></p>
+          <p class="links-text">청년정책꿀팁</p>
+        </a>
+        <a href="#" class="links-item">
+          <p class="links-image"><img src="images/links_img2.svg" alt=""></p>
+          <p class="links-text">청년커뮤니티</p>
+        </a>
+        <a href="#" class="links-item">
+          <p class="links-image"><img src="images/links_img3.svg" alt=""></p>
+          <p class="links-text">청년공간</p>
+        </a> <a href="#" class="links-item">
+          <p class="links-image"><img src="images/links_img4.svg" alt=""></p>
+          <p class="links-text">청년단체</p>
+        </a>
+        <a href="#" class="links-item">
+          <p class="links-image"><img src="images/links_img5.svg" alt=""></p>
+          <p class="links-text">청년상담소</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- 프로그램영역 -->
+  <section class="content">
+    <div class="inner">
+      <div class="con-box">
+        <h2>청년센터 프로그램</h2>
+        <p>청년을 위한 놓칠 수 없는 꿀정보 한가득</p>
+        <div class="swiper sw-item">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"><img src="images/청년기자.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/청년상담소.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/마법정원.png" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/청년기자.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/청년상담소.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/마법정원.png" alt=""></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="btn-next">
+          <span class="material-icons">
+            chevron_right
+          </span>
+
+        </div>
+        <div class="btn-prev">
+          <span class="material-icons">
+            chevron_left
+          </span>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="bg">
+      <img src="images/bg1.png" alt="">
+    </div>
+
+  </section>
+  <!-- 매칭영역 -->
+  <section class="matching">
+    <div class="bg-img">
+      <h2>YSE ! 매칭기업</h2>
+      <p>청년기업도 청년도 모두 OK</p>
+      <a href="#"><span class="more-btn">더보기<img src="images/플러스버튼.png" alt=""></span></a>
+      <div class="inner">
+        <div class="container02">
+          <div class="swiper sw-matching">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="m-box">
+                  <a href="#"><img class="m-img" src="images/Layer 837 복사 2.png" alt=""></a>
+                  <div class="m-text">
+                    <div class="title-box">
+                      <span>2023</span>
+                      <b>피아스페이스</b>
+                      <P>피아스페이스는 인공지능을 통하여
+                        혁신을 이루고자 합니다.</P>
+                    </div>
+                    <div class="address-box clear">
+                      <a href="#"><img class="a-icon" src="images/ico_map.svg" alt=""></a>
+                      <a href="#"><em>대구 달성군 구지면 국가산단서로71길</em></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="m-box">
+                  <a href="#"><img class="m-img" src="images/줌줌랩.png" alt=""></a>
+                  <div class="m-text">
+                    <div class="title-box">
+                      <span>2023</span>
+                      <b>주식회사 줌랩</b>
+                      <P>당사는 대구지역 대표 R&D 서비스
+                        및 ODM 기업으로 디자인, 기구</P>
+                    </div>
+                    <div class="address-box clear">
+                      <a href="#"><img class="a-icon" src="images/ico_map.svg" alt=""></a>
+                      <a href="#"><em>대구 동구 첨복로 106 주식회사 줌랩</em></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="m-box">
+                  <a href="#"><img class="m-img" src="images/멜라카.png" alt=""></a>
+                  <div class="m-text">
+                    <div class="title-box">
+                      <span>2023</span>
+                      <b>주식회사 멜라카</b>
+                      <P>저희 기업에서는 AI 슬라이드 덱솔루션 "그래피툰" 영상 제작 솔루</P>
+                    </div>
+                    <div class="address-box clear">
+                      <a href="#"><img class="a-icon" src="images/ico_map.svg" alt=""></a>
+                      <a href="#"><em>대구 동구 동대구로 469 408,410호</em></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="m-box">
+                  <a href="#"><img class="m-img" src="images/Layer 837 복사 2.png" alt=""></a>
+                  <div class="m-text">
+                    <div class="title-box">
+                      <span>2023</span>
+                      <b>피아스페이스</b>
+                      <P>피아스페이스는 인공지능을 통하여
+                        혁신을 이루고자 합니다.</P>
+                    </div>
+                    <div class="address-box clear">
+                      <a href="#"><img class="a-icon" src="images/ico_map.svg" alt=""></a>
+                      <a href="#"><em>대구 달성군 구지면 국가산단서로71길</em></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="m-box">
+                  <a href="#"><img class="m-img" src="images/줌줌랩.png" alt=""></a>
+                  <div class="m-text">
+                    <div class="title-box">
+                      <span>2023</span>
+                      <b>주식회사 줌랩</b>
+                      <P>당사는 대구지역 대표 R&D 서비스
+                        및 ODM 기업으로 디자인, 기구 ...</P>
+                    </div>
+                    <div class="address-box clear">
+                      <a href="#"><img class="a-icon" src="images/ico_map.svg" alt=""></a>
+                      <a href="#"><em>대구 동구 첨복로 106 주식회사 줌랩</em></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="m-box">
+                  <a href="#"><img class="m-img" src="images/멜라카.png" alt=""></a>
+                  <div class="m-text">
+                    <div class="title-box">
+                      <span>2023</span>
+                      <b>주식회사 멜라카</b>
+                      <P>저희 기업에서는 AI 슬라이드 덱솔루션 "그래피툰" 영상 제작 솔루 ... </P>
+                    </div>
+                    <div class="address-box clear">
+                      <a href="#"><img class="a-icon" src="images/ico_map.svg" alt=""></a>
+                      <a href="#"><em>대구 동구 동대구로 469 408,410호</em></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="s-pagination"></div>
+
+      <div class="bg2">
+        <img src="images/레이어 1.png" alt="">
+      </div>
+
+    </div>
+  </section>
+  <!-- 배너영역 -->
+  <section class="banner">
+    <div class="inner">
+      <div class="banner-box">
+        <div class="swiper sw-banner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"><img src="images/11e13228c53e9.png" alt="배너이미지"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/8c60312c27f5c.png" alt="배너이미지"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/6599e238f96e5.png" alt="베너이미지"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/91a696415a1b0.png" alt="베너이미지"></a>
+            </div>
+          </div>
+          <div class="bullet-next">
+            <span class="material-icons">
+              chevron_right
+            </span>
+
+          </div>
+          <div class="bullet-prev">
+            <span class="material-icons">
+              chevron_left
+            </span>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+  </section>
+  <!-- 공지사항영역 -->
+  <section class="notice">
+    <div class="container03 clear">
+      <div class="notice-box">
+        <h2>공지사항</h2>
+        <a href="#"><span class="more-btn02">더보기<img class="plus" src="images/플러스버튼.png" alt=""></span>
+          <img class="no-bg" src="images/bg_notice.png" alt=""></a>
+        <div class="minibox clear">
+          <div class="left-box">
+            <h3>28</h3>
+            <p>2023.03</p>
+          </div>
+          <div class="right-box">
+            <a href="#">
+              <h3>대구 청년센터 삼일절 휴관 공지</h3>
+            </a>
+            <a href="#">
+              <p>대구시청년센터입니다. 3월 1일 수요일은 국가 공휴일 삼일절</p>
+            </a>
+          </div>
+
+        </div>
+        <div class="list-box">
+          <div class="list">
+            <li>[공지] [센터사업] 2023 집단상담 시즌1 참여자 모집</li>
+            <li>[공지] [센터사업] 2023 청년기자단 7기 BudDY 모집</li>
+            <li>[공지] [센터사업] 청년 프리랜서 지원사업 모집</li>
+            <li>[공지] [센터사업] 2023 사회진입활동지원금 상담연결형 [청년상담소] 참여자 모집</li>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="clip-box">
+        <a href="#">
+          <h2>보라그래 TV</h2>
+
+          <span class="more-btn02">더보기<img class="plus" src="images/플러스버튼.png" alt=""></span>
+          <!-- <div class="youtube">
+                    <div class="youtube-area">
+                        <div id="player"></div>
+                    </div> 
+                    <div class="youtube-cover"></div>
+                </div> -->
+
+          <div class="video-box">
+            <div class="clip">
+              <iframe id="videoplayer" src="https://www.youtube.com/embed/fU4wp3ElgmA" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; web-share" allowfullscreen></iframe>
+
+
+              <!-- <iframe id="videoplayer" src="https://www.youtube.com/embed/2tX_sqmMl2U"
+              title="YouTube video player" allow="accelerometer; autoplay; clipboard-write;  web-share"
+              allowfullscreen></iframe> -->
+            </div>
+
+
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- 푸터영역 -->
+  <footer class="footer">
+    <div class="inner">
+      <div class="container04">
+        <div class="f-leftbox">
+          <img src="images/logo2_230105.png" alt="">
+          <img src="images/tel.png" alt="">
+          <img src="images/mail.png" alt="">
+
+        </div>
+        <div class="center">
+          <img src="images/푸터누끼.png" alt="">
+        </div>
+        <div class="f-rightbox clear">
+          <div class="top-list clear">
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">대구청년소개</a></li>
+
+
+
+          </div>
+          <div class="center-box clear">
+            <li><a href="#"><img class="img-05" src="images/보라그래.png" alt=""></a></li>
+            <li><a href="#"><img class="img-01" src="images/청넌센터한눈에.png" alt=""></a></li>
+            <li><a href="#"><img class="img-02" src="images/청년센터.png" alt=""></a></li>
+            <li><a href="#"><img class="img-03" src="images/청년주간.png" alt=""></a></li>
+            <li><a href="#"><img class="img-04" src="images/청년안방.png" alt=""></a></li>
+
+          </div>
+          <div class="bottom-box clear">
+            <div class="box-left">
+              <h3>활동그래(청년활동지원)</h3>
+              <p>(41937) 대구광역시 중구 중앙대로 402 3층</p>
+              <span>053-426-1939 | dgyc1939@daum.net</span>
+            </div>
+            <div class="box-center">
+              <h3>활동그래(청년활동지원)</h3>
+              <p>(41937) 대구광역시 중구 중앙대로 402 3층</p>
+              <span>053-426-1939 | dgyc1939@daum.net</span>
+            </div>
+            <div class="box-right">
+              <h3>활동그래(청년활동지원)</h3>
+              <p>(41937) 대구광역시 중구 중앙대로 402 3층</p>
+              <span>053-426-1939 | dgyc1939@daum.net</span>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
